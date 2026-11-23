@@ -49,3 +49,4 @@ coverage/
 *.tsbuildinfo
 .kilocode/mcp.json
 opencode.json
+.AGENTS.md
