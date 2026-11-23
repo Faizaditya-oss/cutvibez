@@ -1,0 +1,196 @@
+:root {
+  /* ---------- Palette · neutrals (canvas -> text) ---------- */
+  --cv-n-950: #040000;
+  --cv-n-925: #070101;
+  --cv-n-900: #08080C;
+  --cv-n-880: #0A0A0F;
+  --cv-n-860: #0B0B12;
+  --cv-n-840: #0C0C12;
+  --cv-n-820: #0D0D12;
+  --cv-n-800: #0E0E16;
+  --cv-n-780: #101018;
+  --cv-n-760: #12121A;
+  --cv-n-740: #13131C;
+  --cv-n-720: #16161F;
+  --cv-n-700: #171722;
+  --cv-n-680: #181822;
+  --cv-n-660: #191922;
+  --cv-n-640: #1A1A24;
+  --cv-n-620: #1B1B26;
+  --cv-n-600: #1C1C26;
+  --cv-n-580: #1D1D27;
+  --cv-n-560: #1E1E2A;
+  --cv-n-540: #20202B;
+  --cv-n-520: #22222D;
+  --cv-n-500: #24242F;
+  --cv-n-480: #242430;
+  --cv-n-460: #262632;
+  --cv-n-440: #282833;
+  --cv-n-420: #2A2A36;
+  --cv-n-400: #30303C;
+  --cv-n-380: #33333F;
+  --cv-n-360: #3A3A48;
+  --cv-n-300: #6E6E82;
+  --cv-n-280: #7E7E92;
+  --cv-n-260: #8E8EA3;
+  --cv-n-240: #9C9CB0;
+  --cv-n-220: #A5A5B8;
+  --cv-n-200: #A8A8BC;
+  --cv-n-180: #B9B9C9;
+  --cv-n-160: #C9C9D8;
+  --cv-n-140: #D0D0DE;
+  --cv-n-120: #D6D6E4;
+  --cv-n-100: #D8D8E6;
+  --cv-n-80: #DADAEA;
+  --cv-n-60: #DCDCE8;
+  --cv-n-40: #E0E0EC;
+  --cv-n-20: #E6E6F0;
+  --cv-n-10: #EDEDF5;
+  --cv-n-5: #F4EBFF;
+  --cv-n-0: #FFFFFF;
+
+  /* ---------- Palette · accents ---------- */
+  --cv-lime-500: #C8FA4B;
+  --cv-lime-900: #3A4E1C;
+  --cv-lime-950: #2C3A18;
+  --cv-lime-975: #1C2610;
+
+  --cv-violet-400: #A78BFA;
+  --cv-violet-300: #C4B5FD;
+  --cv-violet-200: #CFC7F5;
+  --cv-violet-500: #6C5CE7;
+  --cv-violet-800: #3B2E8F;
+  --cv-violet-850: #3A2E6B;
+  --cv-violet-975: #1B1730;
+
+  --cv-pink-500: #FF5C8A;
+  --cv-cyan-400: #22D3EE;
+  --cv-amber-400: #F5B94A;
+
+  /* ---------- Palette · tinted surfaces ---------- */
+  --cv-sage-100: #D8E8C4;
+  --cv-sage-300: #AFBF9E;
+  --cv-sage-400: #A9B69A;
+  --cv-sage-450: #9AA88A;
+  --cv-sage-500: #8FA180;
+  --cv-sage-975: #12180C;
+  --cv-sage-950: #141B0E;
+  --cv-sage-925: #151A10;
+  --cv-brown-975: #1A0710;
+  --cv-brown-950: #1E1A10;
+  --cv-brown-925: #241B10;
+  --cv-brown-900: #2A2118;
+  --cv-brown-800: #4A3618;
+
+  /* ---------- Gradients (135deg) ---------- */
+  --cv-gradient-violet: linear-gradient(135deg, #6C5CE7 0%, #3B2E8F 100%);
+  --cv-gradient-pink: linear-gradient(135deg, #FF5C8A 0%, #7A2E4D 100%);
+  --cv-gradient-cyan: linear-gradient(135deg, #22D3EE 0%, #155E75 100%);
+  --cv-gradient-violet-pink: linear-gradient(135deg, #6C5CE7 0%, #FF5C8A 100%);
+  --cv-gradient-lime: linear-gradient(135deg, #C8FA4B 0%, #5C7F1F 100%);
+  --cv-gradient-purple: linear-gradient(135deg, #A78BFA 0%, #4C1D95 100%);
+  --cv-gradient-amber: linear-gradient(135deg, #F59E0B 0%, #7C2D12 100%);
+  --cv-gradient-deep: linear-gradient(135deg, #241F3D 0%, #0D0B16 100%);
+  --cv-gradient-fade: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.67) 100%);
+
+  /* ---------- Semantic ---------- */
+  --cv-bg: var(--cv-n-900);
+  --cv-bg-sidebar: var(--cv-n-880);
+  --cv-bg-raised: var(--cv-n-860);
+  --cv-surface-1: var(--cv-n-780);
+  --cv-surface-2: var(--cv-n-700);
+  --cv-surface-3: var(--cv-n-580);
+  --cv-surface-4: var(--cv-n-500);
+  --cv-overlay: rgba(11, 11, 18, 0.6);
+
+  --cv-border: var(--cv-n-660);
+  --cv-border-subtle: var(--cv-n-600);
+  --cv-border-strong: var(--cv-n-360);
+
+  --cv-text: var(--cv-n-0);
+  --cv-text-soft: var(--cv-n-60);
+  --cv-text-muted: var(--cv-n-260);
+  --cv-text-dim: var(--cv-n-300);
+  --cv-text-on-accent: var(--cv-n-880);
+
+  --cv-accent: var(--cv-lime-500);
+  --cv-success: var(--cv-lime-500);
+  --cv-info: var(--cv-cyan-400);
+  --cv-danger: var(--cv-pink-500);
+  --cv-warning: var(--cv-amber-400);
+
+  /* ---------- Typography ---------- */
+  --cv-font-sans: "Inter", system-ui, sans-serif;
+  --cv-font-display: "Poppins", "Inter", sans-serif;
+  --cv-font-alt: "Afacad Flux", "Inter", sans-serif;
+
+  --cv-weight-regular: 400;
+  --cv-weight-medium: 500;
+  --cv-weight-semibold: 600;
+  --cv-weight-bold: 700;
+
+  --cv-text-2xs: 8.5px;
+  --cv-text-xs: 9.5px;
+  --cv-text-sm: 10.5px;
+  --cv-text-base: 11.5px;
+  --cv-text-md: 12.5px;
+  --cv-text-lg: 14px;
+  --cv-text-xl: 18px;
+
+  --cv-display-sm: 18px;
+  --cv-display-md: 22px;
+  --cv-display-lg: 26px;
+  --cv-display-xl: 38px;
+
+  --cv-leading-tight: 1.2;
+  --cv-leading-normal: 1.45;
+
+  --cv-tracking-label: 0.1667em;
+  --cv-tracking-caps: 0.1778em;
+  --cv-tracking-wide: 0.2444em;
+
+  /* ---------- Radius ---------- */
+  --cv-radius-xs: 4px;
+  --cv-radius-sm: 6px;
+  --cv-radius-md: 10px;
+  --cv-radius-lg: 12px;
+  --cv-radius-xl: 16px;
+  --cv-radius-2xl: 18px;
+  --cv-radius-3xl: 24px;
+  --cv-radius-full: 9999px;
+
+  /* ---------- Spacing ---------- */
+  --cv-space-1: 4px;
+  --cv-space-1-5: 6px;
+  --cv-space-2: 8px;
+  --cv-space-2-5: 10px;
+  --cv-space-3: 12px;
+  --cv-space-4: 16px;
+  --cv-space-4-5: 18px;
+  --cv-space-5: 20px;
+  --cv-space-6: 24px;
+  --cv-space-8: 32px;
+  --cv-space-9: 36px;
+  --cv-space-11: 44px;
+
+  --cv-gap-xs: 5px;
+  --cv-gap-sm: 6px;
+  --cv-pad-x-sm: 8px;
+  --cv-pad-x-md: 16px;
+  --cv-pad-panel: 20px;
+
+  /* ---------- Layout ---------- */
+  --cv-app-width: 1440px;
+  --cv-app-height: 1000px;
+  --cv-sidebar-width: 248px;
+  --cv-topbar-height: 82px;
+  --cv-nav-item-height: 44px;
+  --cv-icon-button: 40px;
+  --cv-panel-width: 384px;
+  --cv-panel-width-sm: 376px;
+  --cv-panel-width-lg: 404px;
+
+  --cv-border-width: 1px;
+  --cv-border-width-strong: 1.5px;
+  --cv-ring-width: 3px;
+}

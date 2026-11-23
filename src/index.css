@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@400&family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap");
+@import "tailwindcss";
+@import "./styles/tokens.css";
+
+@theme inline {
+  --color-canvas: var(--cv-bg);
+  --color-surface: var(--cv-surface-1);
+  --color-chip: var(--cv-bg-raised);
+  --color-line: var(--cv-border-subtle);
+  --color-chip-line: var(--cv-n-460);
+  --color-dim: var(--cv-text-dim);
+  --color-muted: var(--cv-text-muted);
+  --color-soft: var(--cv-n-180);
+  --color-accent: var(--cv-accent);
+  --color-ink: var(--cv-text-on-accent);
+
+  --font-sans: var(--cv-font-sans);
+  --font-display: var(--cv-font-display);
+  --font-alt: var(--cv-font-alt);
+}
