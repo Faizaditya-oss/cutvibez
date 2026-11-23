@@ -155,9 +155,5 @@ Data menggunakan **dummy hardcoded** di `src/context/AppContext.jsx`:
 
 ---
 
-## Lisensi
 
-MIT License — bebas digunakan untuk pembelajaran dan pengembangan lebih lanjut.
-
----
 
